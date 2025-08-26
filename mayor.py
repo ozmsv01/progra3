@@ -1,7 +1,10 @@
-n1 = int(input("Ingresa el numero 1: "))
-n2 = int(input("Ingresa el numero 2: "))
+condicion = 3
 
-if n1 > n2 :
-    print("El numero mayor es: ",n1)
+if condicion == 1:
+    print("Haz a")
+elif condicion == 2:
+    print("Haz b")
+elif condicion == 3:
+    print("Haz c")
 else:
-    print("El numero mayor es: ",n2)
+    print("Haz d")
